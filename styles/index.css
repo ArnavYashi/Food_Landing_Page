@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.heads {
+    padding: 21px 11vw;
+}
+
+.burger {
+    display: block;
+    cursor: pointer;
+    right: 5%;
+    position: absolute;
+
+}
+
+.line {
+    width: 33px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+
+}
+
+.section1 {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3266805/images/Untitled-1.jpg);
+    background-size: cover;
+}
+
+.img1 {
+    width: 50%;
+}
+.img1 img{
+    width: 80%;
+    height: 100%;
+}
+
+.about {
+    width: 50%;
+}
+
+.about div {
+    padding: 9px 0;
+}
+
+.aboutus {
+    font-size: 3vw;
+}
+
+.text {
+    height: 18vh;
+}
+.section1 div button{
+    background-color: #e2781a;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #e2781a;
+    border-radius: 36px;
+    padding: 13px 48px;
+}
+
+
+.section2 {
+    padding: 6vw;
+    justify-content: space-between;
+}
+
+.leftdiv {
+    width: 43%;
+    text-align: center;
+}
+
+.leftdiv div {
+    padding: 18px 0;
+}
+
+.aboutbakery {
+    font-size: 3vw;
+}
+
+.list ul {
+    list-style: none;
+    text-decoration-line: underline;
+    text-decoration-color: #e2781a;
+}
+
+.list ul li {
+    padding: 30px 0;
+    font-size: 1.5vw;
+}
+
+.rightdiv {
+    width: 43%;
+}
+
+.rightdiv img {
+    width: 100%;
+}
+
+.section3 {
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/68a67d3c284f585b9406845f/tt-min.jpg);
+}
+.bread{
+    padding: 5vw 11vw;
+}
+.bread> div{
+    padding: 33px 0px;
+}
+.ourbread{
+    color: white;
+    font-size: 3vw;
+}
+.row{
+    justify-content: space-around;
+}
+.box{
+    color: white;
+    border-radius: 21px;
+    padding: 22px 0 35px 0;
+    width: 23vw;
+    background: rgba(0,0,0,0.5);
+}
+.heads1{
+    font-size: 2vw;
+    padding-bottom: 14px;
+    color: #e8b284;
+}
+.freepik{
+    color: white;
+}
+.section4{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3266805/images/Untitled-1.jpg);
+    background-size: cover;
+}
+.section4 div button{
+    background-color: #e2781a;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #e2781a;
+    border-radius: 36px;
+    padding: 13px 48px;
+}
+
+.about1{
+    margin: 3vw 0;
+    padding-left: 7vw;
+    width: 50%;
+}
+.aboutus1{
+    font-size: 2vw;
+}
+.text1{
+    height: 18vh;
+}
+.about1 div{
+    padding: 23px 0;
+}
+.img2{
+    padding: 4vw;
+    width: 50%;
+}
+.img2 img{
+    width: 90%;
+    height: 100%;
+}
+.about2{
+    margin: 0 11vw;
+}
+.products{
+    font-size: 4vw;
+}
+
+.img3 div img{
+    width: 23vw;
+    height: 23vw;
+    padding: 19px;
+}
+.section5{
+    height: 44vw;
+}
+.empty{
+    background-color: black;
+    height: 45vw;
+}
+
+.section6{
+    background-color: black;
+    color: white;
+    padding-top: 12vw;
+}
+.email{
+    justify-content: center;
+    align-items: center;
+}
+
+.heads2{
+    font-size: 2.5vw;
+}
+.subscribe{
+    margin: 0 30vw;
+}
+.subscribe div{
+    padding-bottom: 55px;
+}
+.email div input{
+    width: 20vw;
+    height: 2.2vw;
+    padding: 6px;
+    font-size: 20px;
+}
+.buttons button {
+    background-color: #e2781a;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #e2781a;
+    padding: 13px 48px;
+
+}
+.section7{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3266805/images/Untitled-1.jpg);
+    background-size: cover;
+}
+.hour{
+    color: #e2781a;
+    font-size: 2vw;
+}
+.img4{
+    width: 50%;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width:800px){
+    .section1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .img1{
+        width: auto;
+    }
+    .about{
+        width: auto;
+    }
+    .aboutus {
+        font-size: 10vw;
+    }
+    .section2{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .leftdiv{
+        width: auto;
+    }
+    .aboutbakery {
+        font-size: 7vw;
+    }
+    .leftdiv div {
+        text-align: center;
+        justify-content: center;
+    }
+    .list ul li {
+        font-size: 3.5vw;
+    }
+    .rightdiv{
+        width: auto;
+    }
+    .aboutbakery {
+        font-size: 7vw;
+    }
+    .ourbread{
+        font-size: 10vw;
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .row .box{
+        color: white;
+        border-radius: 21px;
+        padding: 22px 0 37px 0;
+        background: rgba(0,0,0,0.5);
+        margin: 15px 0;
+        font-size: 4vw;
+        width: auto;
+    }
+    .heads1{
+        font-size: 6vw;
+    }
+    .section4{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about2 .img3{
+        flex-direction: column;
+    }
+    .section5{
+        height: auto;
+    }
+    .empty{
+        display: none;
+    }
+    .section7{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about1{
+        width: auto;
+    }
+    .img2{
+        width: auto;
+    }
+    .products{
+        font-size: 9vw;
+    }
+    .img3 div img {
+        width: 65vw;
+        height: 46vw;
+        padding: 19px;
+    }
+    .subscribe {
+        margin: 0px 14vw;
+    }
+    .heads2 {
+        font-size: 6vw;
+    }
+    .aboutus1 {
+        font-size: 8vw;
+    }
+    .hour {
+        color: #e2781a;
+        font-size: 6vw;
+    }
+    
+    
+}
